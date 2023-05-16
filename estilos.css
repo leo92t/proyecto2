@@ -43,7 +43,7 @@ nav{
 
 main{
     width: 100%;
-    height: calc(100vh - 110px);
+    height: auto;
 }
 
 .contenido{
@@ -183,9 +183,7 @@ h1{
         
     }
 
-    main{
-        
-    }
+    
 }
 
 @media screen and (min-width: 768px) {
@@ -195,9 +193,6 @@ h1{
         grid-gap: 15px 15px
    }
    
-   main{
-    
-   }
 
    .foto1 {
     grid-column: 1/3;
